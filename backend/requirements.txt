@@ -4,7 +4,7 @@ python-dotenv==1.2.2
 requests==2.33.1
 langchain==0.2.0
 langchain-google-genai
-langgraph==0.1.0
+langgraph
 assemblyai==1.2.0
 google-genai==0.3.0
 tenacity==8.2.3
