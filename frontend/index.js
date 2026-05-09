@@ -293,7 +293,7 @@ function stopRecording() {
 
 // ========== API FUNCTIONS ==========
 
-const startInterviewApiUrl = "http://127.0.0.1:5001/start-interview";
+const startInterviewApiUrl = "http://127.0.0.1:5001/start-interview" || "https://assignment-summarizer-28we.onrender.com";
 
 
 async function startInterview() {
