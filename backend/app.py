@@ -116,7 +116,7 @@ Be specific - reference ACTUAL things they said during the interview."""
 app = Flask(__name__)
 # Configure CORS to allow requests from the frontend dev server.
 # Set FRONTEND_ORIGIN in the environment to override if needed.
-FRONTEND_ORIGIN = os.getenv("FRONTEND_ORIGIN", "https://ai-interviewer-5hnlcl9tu-rokade845s-projects.vercel.app")
+FRONTEND_ORIGIN = os.getenv("FRONTEND_ORIGIN", "*")
 CORS(app, resources={r"/*": {"origins": FRONTEND_ORIGIN}}, supports_credentials=True, expose_headers=["X-Question-Number", "X-Interview-Complete"])
 
 
