@@ -293,7 +293,7 @@ function stopRecording() {
 
 // ========== API FUNCTIONS ==========
 
-const startInterviewApiUrl = "https://assignment-summarizer-28we.onrender.com";
+const startInterviewApiUrl = "https://assignment-summarizer-28we.onrender.com/start-interview";
 
 
 async function startInterview() {
@@ -328,7 +328,7 @@ async function startInterview() {
     }
 }
 
-const submitAnswerApiUrl = "http://127.0.0.1:5001/submit-answer";
+const submitAnswerApiUrl = "https://assignment-summarizer-28we.onrender.com/submit-answer";
 
 
 async function submitAnswer() {
@@ -401,7 +401,7 @@ async function endInterview() {
     await getFeedback();
 }
 
-const getFeedbackApiUrl = "http://127.0.0.1:5001/get-feedback";
+const getFeedbackApiUrl = "https://assignment-summarizer-28we.onrender.com/get-feedback";
 
 async function getFeedback() {
     showFeedbackSection();
